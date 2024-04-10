@@ -14,3 +14,5 @@ def buzzer():
     time.sleep(10)
     pwm.stop()
     GPIO.cleanup()
+
+buzzer()
